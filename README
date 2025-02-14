@@ -1,3 +1,5 @@
 Ne pas oubliez de télécharger dans le cmd pygame avant de le lancer !
 commande : 
-'''pip install pygame'''
+```
+pip install pygame
+```
