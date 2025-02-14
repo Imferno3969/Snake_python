@@ -27,7 +27,7 @@ font_style = pygame.font.SysFont(None, 30)
 
 def our_snake(snake_block, snake_List):
     for x in snake_List:
-        pygame.draw.rect(dis, black, [x[0], x[1], snake_block, snake_block])
+        pygame.draw.rect(dis, green, [x[0], x[1], snake_block, snake_block])
 
 
 def message(msg, color):
@@ -89,7 +89,7 @@ def gameLoop():
         x1 += x1_change
         y1 += y1_change
         dis.fill(blue)
-        pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block])
+        pygame.draw.rect(dis, red, [foodx, foody, snake_block, snake_block])
 
         snake_Head = []
         snake_Head.append(x1)
